@@ -17,6 +17,12 @@ html{
     top:0;
 }
 
+.navbar .logo{
+    display: flex;
+    justify-content: left;
+    align-items:left;
+}
+
 .navbar ul{
     display: flex;
     list-style: none;
