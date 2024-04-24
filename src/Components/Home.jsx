@@ -20,8 +20,8 @@ function Home(){
    </nav>
 
     <div className = "about">
-    <h2>About the website</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis corrupti rerum, iste autem repellat quod illum harum! Voluptatum, obcaecati! Distinctio, perferendis ea ipsum cum exercitationem enim eveniet repellat! Dolorem, et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ut enim! Perferendis dolores officia voluptate delectus deserunt, adipisci eos, at voluptatibus voluptates sequi expedita minus soluta libero, optio et. Possimus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident sequi dolorem, aliquam doloribus vel perspiciatis nulla pariatur aut, ducimus assumenda praesentium corporis exercitationem quibusdam natus dicta, hic totam ut delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus dolor repellat nulla reiciendis illo, illum ducimus quasi quos reprehenderit aspernatur cumque sint excepturi placeat consectetur eos iure ut enim.</p>
+    <h2>Disclaimer</h2>
+    <p>We are  not a professional stock analyst or financial advisor. Any information provided is for educational and informational purposes only and should not be construed as financial advice. Investing in the stock market involves risks, including the potential loss of principal. All investment decisions and actions are taken at your own risk. It is recommended to consult with a qualified financial advisor or conduct thorough research before making any investment decisions.</p>
     </div>
     
     <div className = "inspiration">
@@ -47,7 +47,7 @@ function Home(){
 
     <div class = "contact">
         <h2>Contact us</h2>
-        <p>Our email here</p>
+        <p>StockGeeks@gmail.com</p>
     </div>
     </>
        )
