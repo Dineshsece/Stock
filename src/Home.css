@@ -54,7 +54,7 @@ html{
     flex-direction: column;
     justify-content:space-between; /* Align items with space between them */
     text-align: center;
-    background-color: #333; /* Set navbar background color */
+    background-color:rgb(18, 29, 51); /* Set navbar background color */
     height: 100vh; /* Fill the viewport height */
     width: 130px; /* Set fixed width */
     padding: 20px; /* Add padding to navbar */
@@ -69,7 +69,7 @@ html{
 
 .navbar1 li {
     margin-bottom: auto; /* Distribute space evenly */
-   padding-top:90px ;
+   padding-top:70px ;
     
 }
 
@@ -82,3 +82,4 @@ html{
 .navbar1 li a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
+
