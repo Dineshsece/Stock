@@ -23,27 +23,28 @@ function Home(){
     <h2>About the website</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis corrupti rerum, iste autem repellat quod illum harum! Voluptatum, obcaecati! Distinctio, perferendis ea ipsum cum exercitationem enim eveniet repellat! Dolorem, et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ut enim! Perferendis dolores officia voluptate delectus deserunt, adipisci eos, at voluptatibus voluptates sequi expedita minus soluta libero, optio et. Possimus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident sequi dolorem, aliquam doloribus vel perspiciatis nulla pariatur aut, ducimus assumenda praesentium corporis exercitationem quibusdam natus dicta, hic totam ut delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus dolor repellat nulla reiciendis illo, illum ducimus quasi quos reprehenderit aspernatur cumque sint excepturi placeat consectetur eos iure ut enim.</p>
     </div>
-    
-    <div className = "inspiration">
+   
     <h2>Inspiration</h2>
-
+   <div className="image">
     <div class = "img1">
-    <img src={img1}></img>
+    <img src={img1} width={"300px"}></img>
     <p>"The key to successful investing is to identify businesses with a long runway for growth"</p>
     </div>
 
     <div class = "img2">
-    <img src={img2}></img>
+    <img src={img2} width={"300px"}></img>
     <p> "Be fearful when others are greedy and greedy when others are fearful"</p>
     </div>
 
     <div class = "img3">
-    <img src={img3}></img>
+    <img src={img3} width={"300px"}></img>
     <p> </p>
     <p>"Don't be afraid to take calculated risks. The biggest risk is not taking any risk at all"</p>
     </div>
 
     </div>
+
+   
 
     <div class = "contact">
         <h2>Contact us</h2>
