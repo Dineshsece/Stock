@@ -13,8 +13,7 @@ function Home(){
        <nav class="navbar">
        <ul>
            <li><Link to="/">Home</Link></li>
-           <li><Link to="/Analysis">Analysis</Link></li>
-           <li><Link to="/Guide">Guide</Link></li>
+           <li><Link to="/Workspace">Workspace</Link></li>
            <li><Link to="/Aboutus">About Us</Link></li>
            <li><Link to="/Contact">Contact</Link></li>
        </ul>

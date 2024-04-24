@@ -47,3 +47,38 @@ html{
     color: black;
     box-shadow: 0 0 10px white;
 }
+
+.navbar1 {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between; /* Align items with space between them */
+    text-align: center;
+    background-color: #333; /* Set navbar background color */
+    height: 100vh; /* Fill the viewport height */
+    width: 130px; /* Set fixed width */
+    padding: 20px; /* Add padding to navbar */
+    position: fixed;
+}
+
+.navbar1 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+.navbar1 li {
+    margin-bottom: auto; /* Distribute space evenly */
+   padding-top:90px ;
+    
+}
+
+.navbar1 li a {
+    color: #fff; /* Set link color */
+    text-decoration: none;
+    font-size: 18px; /* Set font size */
+}
+
+.navbar1 li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

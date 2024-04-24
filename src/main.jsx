@@ -1,13 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
-//import App from './App'
 import Homepage from "./Components/Home.jsx"
 import Analysis from "./Components/Analysis.jsx"
-import Guide from "./Components/Guide.jsx"
+import Workspace from './Components/Workspace.jsx'
 import AboutUs from './Components/AboutUs.jsx'
 import Contact from './Components/Contact.jsx'
 import './Home.css'
+import Tools from './Components/Tools.jsx'
+import Stock from './Components/Stock.jsx'
+import Guide from './Components/Guide.jsx'
+import Knowledge from './Components/Knowledge.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,8 +22,8 @@ const router = createBrowserRouter([
     element : <Analysis/>,
    },
    {
-    path : "/Guide",
-    element : <Guide/>,
+    path : "/Workspace",
+    element : <Workspace/>,
    },
    {
     path : '/Aboutus',
@@ -29,6 +32,22 @@ const router = createBrowserRouter([
    {
     path : "/Contact",
     element : <Contact/>
+   },
+   {
+    path : "/Tools",
+    element : <Tools/>
+   },
+   {
+    path : "/Stock",
+    element : <Stock/>
+   },
+   {
+    path : "/Guide",
+    element : <Guide/>
+   },
+   {
+    path : "/Knowledge",
+    element : <Knowledge/>
    }
 ])
 

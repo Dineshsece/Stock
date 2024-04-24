@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-function Guide(){
+function Knowledge(){
     return(
             <>
             <nav class="navbar1">
@@ -13,9 +13,9 @@ function Guide(){
                 <li><Link to="/Knowledge">Knowledge</Link></li>
             </ul>
         </nav>
-        <h1>Guide</h1>
+        <h1>Knowledge</h1>
         </>
     )
 }
 
-export default Guide
+export default Knowledge

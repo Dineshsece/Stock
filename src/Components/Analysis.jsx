@@ -36,16 +36,17 @@ function Analysis() {
 
   return (
     <>
-    <nav class="navbar">
-    <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/Analysis">Analysis</Link></li>
-        <li><Link to="/Guide">Guide</Link></li>
-        <li><Link to="/Aboutus">About Us</Link></li>
-        <li><Link to="/Contact">Contact</Link></li>
-    </ul>
-</nav>
-    <div style={{ height: "100vh", width: "100%" }}>
+    <nav class="navbar1">
+            <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/Tools">Tools</Link></li>
+            <li><Link to="/Stock">Stock</Link></li>
+            <li><Link to="/Analysis">Analysis</Link></li>
+            <li><Link to="/Guide">Guide</Link></li>
+            <li><Link to="/Knowledge">Knowledge</Link></li>
+            </ul>
+        </nav>
+    <div style={{ height: "100vh", width: "92%",marginLeft:"120px" }}>
       <div style={{ height: "100%", width: "100%" }}>
         <div className="tradingview-widget-container" ref={container} style={{ height: "100%", width: "100%" }}>
           <div className="tradingview-widget-container__widget" style={{ height: "1%", width: "1%" }}></div>
