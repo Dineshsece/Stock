@@ -8,6 +8,7 @@ function Tools(){
     <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/Tools">Tools</Link></li>
+        <li><Link to="/Brokers">Brokers</Link></li>
         <li><Link to="/Stock">Stock</Link></li>
         <li><Link to="/Analysis">Analysis</Link></li>
         <li><Link to="/Guide">Guide</Link></li>

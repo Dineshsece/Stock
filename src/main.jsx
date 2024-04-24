@@ -11,6 +11,7 @@ import Tools from './Components/Tools.jsx'
 import Stock from './Components/Stock.jsx'
 import Guide from './Components/Guide.jsx'
 import Knowledge from './Components/Knowledge.jsx'
+import Brokers from './Components/Brokers.jsx'
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
    {
     path : "/Knowledge",
     element : <Knowledge/>
+   },
+   {
+    path : "/Brokers",
+    element : <Brokers/>
    }
 ])
 
