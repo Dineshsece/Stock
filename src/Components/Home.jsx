@@ -40,7 +40,7 @@ function Home(){
    <div className="about">
     <h2>Inspiration</h2>
    <div className="sidediv">
-    <Slider {...settings}>
+     <Slider {...settings}>
 
    
     <div class = "img">

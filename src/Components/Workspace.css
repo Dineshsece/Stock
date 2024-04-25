@@ -7,6 +7,7 @@
     width: 130px; /* Set fixed width */
     position: fixed;
     left: 0; /* Align to the left side */
+    top:0;
 }
 
 .navbar1 ul {

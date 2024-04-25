@@ -4,7 +4,7 @@ import './brokers.css';
 function Brokers(){
   return (
     <>
-    <nav class="navbar1">
+   <div style={{marginTop:"0"}}> <nav class="navbar1" style={{marginTop:0}}>
             <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/Tools">Tools</Link></li>
@@ -14,8 +14,8 @@ function Brokers(){
             <li><Link to="/Guide">Guide</Link></li>
             <li><Link to="/Knowledge">Knowledge</Link></li>
             </ul>
-        </nav>
-        <div style={{ height: "100vh", width: "92%",marginLeft:"140px" }}>
+        </nav></div>
+        <div style={{ height: "100vh", width: "92%",marginTop:"0",marginLeft:"140px" }}>
         <div className="brokers" >
             <h1>Brokers</h1>
             <br/><p>Broker in the stock market is like a middleman who helps you buy and sell stocks or other investments. They have access to the places where stocks are traded, like the stock exchange, and they handle the transactions for you. Some brokers also give advice on what stocks to buy or sell, while others just execute the trades you tell them to. They may charge you a fee or a commission for their services. Basically, they make it easier for you to invest in the stock market.</p><br/></div>
@@ -47,7 +47,8 @@ function Brokers(){
            <p>Consider feedback from online reviews and engage with investor communities for peer insights.<br/>
            Utilize demo accounts to experience the platform's features and functionalities firsthand.<br/>
           Take into account factors like account minimums and margin rates if relevant to your investment strategy.<br/>
-          </p><br/>
+          </p><br/></div>
+          <div className="brokers" >
           <h3>List of top 5 Brokers with KeyPoints:</h3>
           <h1>The box will come here</h1><br/>
           <h2>Discount Brokers:</h2>
@@ -57,7 +58,9 @@ function Brokers(){
           <p> 2. <a href="https://upstox.com/"><b>Upstox</b></a> (formerly RKSV Securities): Upstox is another discount broker known for its low-cost trading platform and mobile app. Similar to Zerodha in terms of fees and platform, they offer basic research reports and are suitable for long-term investors and frequent traders.</p><br/>
           <p> 3. <a href="https://www.angelone.in/"><b>Angel One</b></a>  (formerly Angel Broking): Angel One offers a user-friendly platform with an extensive range of research tools and educational resources. They are known for their focus on customer service and are a good option for both beginners and experienced investors. </p><br/>
           <p> 4. <a href="https://www.5paisa.com/"><b>5paisa</b></a> : 5paisa is a discount broker known for its low brokerage fees and commission-free investing options for certain segments. They offer a user-friendly platform and basic research reports, making them suitable for cost-conscious investors. </p><br/>
-          <p> 5. <a href="https://fyers.in/"></a> :  Fyers is a relatively new discount broker that has gained popularity for its advanced trading platform and charting tools. They offer margin trading facilities and cater to active traders and investors who value a feature-rich platform. </p><br/>
+         <p> 5. <a href="https://fyers.in/"></a> :  Fyers is a relatively new discount broker that has gained popularity for its advanced trading platform and charting tools. They offer margin trading facilities and cater to active traders and investors who value a feature-rich platform. </p><br/>
+         </div>
+         <div className="brokers" >
         <h2>Full-Service Brokers:</h2>
         <p>Full-service brokers offer a wider range of services, including research reports, recommendations, and personalized investment advice. They are a good option for new investors or those who seek guidance from a qualified professional. However, they typically charge higher fees than discount brokers.</p><br/>
         <p> 1. <a href="https://www.icicidirect.com/">ICICI Direct</a> :  ICICI Direct is a full-service broker that offers a wide range of investment products and services, including research and advisory. They have a large branch network for in-person assistance, making them suitable for new investors seeking guidance.</p><br/>
@@ -65,10 +68,11 @@ function Brokers(){
         <p> 3. <a href="https://www.kotaksecurities.com/">Kotak Securities</a> : Kotak Securities offers a variety of investment products and services, including research, recommendations, and portfolio management. They have a strong focus on digital platforms and mobile app, making them a good option for tech-savvy investors. </p><br/>
         <p> 4. <a href="https://simplehai.axisdirect.in/#">Axis Direct</a> :  Axis Direct is the online broking arm of Axis Bank, offering a user-friendly platform, research reports, and investment advisory services. They are suitable for both beginners and experienced investors seeking a balance between cost and service. </p><br/>
         <p> 5. <a href="https://www.motilaloswal.com/">Motilal Oswal</a> : Motilal Oswal is a full-service broker known for its research capabilities and focus on customer education. They offer a wide range of investment products and services, including research reports, recommendations, and portfolio management. However, their brokerage fees are on the higher side, making them suitable for investors seeking in-depth research and guidance. </p><br/>
+        </div>
         <h2>Broker Difference:</h2>
         <h1>A box need to be inserted</h1>
         </div>
-        </div>
+        
         </>
   )
 }
