@@ -53,35 +53,35 @@ html{
    
     display: flex;
     flex-direction: column;
-    justify-content:space-between; /* Align items with space between them */
+    justify-content:space-between;
     text-align: center;
-    background-color:rgb(18, 29, 51); /* Set navbar background color */
-    height: 100vh; /* Fill the viewport height */
-    width: 130px; /* Set fixed width */
-    padding: 20px; /* Add padding to navbar */
+    background-color:rgb(18, 29, 51);
+    height: 100vh;
+    width: 130px;
+    padding: 20px; 
     position: fixed;
 }
 
 .navbar1 ul {
     list-style-type: none;
     padding: 0;
-    margin: 0; /* Remove default margin */
+    margin: 0;
 }
 
 .navbar1 li {
-    margin-bottom: auto; /* Distribute space evenly */
+    margin-bottom: auto; 
    padding-top:70px ;
     
 }
 
 .navbar1 li a {
-    color: #fff; /* Set link color */
+    color: #fff;
     text-decoration: none;
-    font-size: 18px; /* Set font size */
+    font-size: 18px; 
 }
 
 .navbar1 li a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline; */
 }
 
 .img{
@@ -97,7 +97,7 @@ html{
    
 }
 .slick-side>div{
-    ma
+    margin: 0 10px;         
 }
 
 
