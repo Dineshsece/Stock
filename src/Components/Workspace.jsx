@@ -14,7 +14,9 @@ function Workspace() {
             <li><Link to="/Knowledge">Knowledge</Link></li>
         </ul>
     </nav>
-    <h1>Workspace </h1>
+    <div style={{marginLeft:"150px"}}>
+    <h1 >Workspace </h1>
+    </div>
     </>
         )
 }

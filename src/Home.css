@@ -8,12 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 
-.image{
-    display: flex;
-    flex-direction: row;
-    width: 300px;
-    height: 300px;
-}
+
 .navbar{
     display: flex;
     justify-content: right;
@@ -89,3 +84,23 @@ html{
     text-decoration: underline; /* Add underline on hover */
 }
 
+.img{
+   
+   margin: 0px 0.1px;
+   width: 300px;
+   height: 500px;
+   padding: 50px;
+
+
+   border: black solid;
+
+   
+}
+.slick-side>div{
+    ma
+}
+
+
+.sidediv{
+    margin: 150px;
+}
