@@ -1,6 +1,5 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-
 import "slick-carousel/slick/slick-theme.css";
 import img1 from "./images/img1.avif"
 import img2 from "./images/img2.jpg"
@@ -24,7 +23,7 @@ function Home(){
    
        return( 
         <>
-       <nav class="navbar">
+       <nav className="navbar">
        <ul>
            <li><Link to="/">Home</Link></li>
            <li><Link to="/Workspace">Workspace</Link></li>
@@ -43,17 +42,17 @@ function Home(){
     <Slider {...settings}>
 
    
-    <div class = "img">
+    <div className = "img">
     <img src={img1} width={"300px"} height={"200px"}></img>
     <p>"The key to successful investing is to identify businesses with a long runway for growth"</p>
     </div>
 
-    <div class = "img">
+    <div className = "img">
     <img src={img2} width={"300px"} height={"200px"}></img>
     <p> "Be fearful when others are greedy and greedy when others are fearful"</p>
     </div>
 
-    <div class = "img">
+    <div className = "img">
     <img src={img3} width={"300px"} height={"200px"}></img>
     <p> </p>
     <p>"Don't be afraid to take calculated risks. The biggest risk is not taking any risk at all"</p>

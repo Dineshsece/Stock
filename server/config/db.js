@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const url = "mongodb://localhost:27017/book-library"
+const url = "mongodb://localhost:27017/stock-market"
 
 
 
