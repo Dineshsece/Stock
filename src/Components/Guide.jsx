@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import './Guide.css'
 
 function Guide(){
     return(

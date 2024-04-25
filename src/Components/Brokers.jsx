@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './brokers.css';
 
 function Brokers(){
   return (
