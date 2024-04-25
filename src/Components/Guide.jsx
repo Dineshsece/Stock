@@ -35,6 +35,28 @@ function Guide(){
 <b>2. Prospectus:</b> Examine the prospectus filed with the SEC by companies issuing shares to understand the details of the investment opportunity and associated risks.<br/>
 <b>3. Stock Reports:</b> Access stock performance reports from reputable sources such as stock brokers or investment advisers to supplement your research and gain diverse perspectives.<br/>
 </p><br/>
+<p>
+    <h1>Investment Plan:</h1>
+    <h2>SIP (Systematic Investment Plan):</h2>
+        SIP involves investing a fixed amount of money at regular intervals, typically monthly or quarterly, into a mutual fund scheme.
+         Investors set up SIPs to automate their investments, allowing for disciplined investing without the need for timing the market.
+        SIPs offer several benefits, including:
+        Rupee Cost Averaging: With SIPs, investors buy more units of a mutual fund when prices are low and fewer units when prices are high, effectively averaging out the cost over time.
+        Disciplined Investing: SIPs encourage regular investing, helping investors stay committed to their financial goals and avoid emotional decision-making during market fluctuations.
+        Convenience: SIPs can be easily set up and managed, making them suitable for investors with varying levels of experience and knowledge.
+    SIPs are ideal for long-term investors looking to accumulate wealth gradually over time, such as saving for retirement, education, or other financial goals.
+<br></br>
+        Lump Sum Investment:
+            Lump sum investment involves investing a significant amount of money into a mutual fund scheme all at once, typically in a single transaction.
+            Investors may choose lump sum investments when they have a large sum of money available, such as receiving a bonus, inheritance, or selling an asset.
+            Lump sum investments offer several potential benefits, including:
+        Immediate Exposure: Investors immediately gain exposure to the market and potential returns on their investment.
+            No Ongoing Commitment: Unlike SIPs, lump sum investments do not require ongoing contributions, providing flexibility for investors who prefer a one-time investment approach.
+            Potential for Higher Returns: In certain market conditions, lump sum investments may outperform SIPs over the long term, especially if the market experiences sustained growth.
+            However, lump sum investments also come with risks, such as the potential for market timing and exposure to market volatility, which could lead to short-term losses if the market experiences a downturn shortly after investing.
+            In summary, SIPs and lump sum investments are two different approaches to investing in mutual funds, each with its own set of benefits and considerations. SIPs offer a disciplined, gradual approach to investing, while lump sum investments provide immediate exposure to the market and potential for higher returns but carry greater risk in terms of market timing and volatility. Investors should carefully consider their financial goals, risk tolerance, and investment horizon when deciding between SIPs and lump sum investments.
+
+</p>
 </div>
         </>
     )
