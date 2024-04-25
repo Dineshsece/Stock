@@ -1,4 +1,6 @@
-import { Link } from "react-router-dom"
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Workspace.css';
 function Workspace() {
     return(
         <>
@@ -14,7 +16,6 @@ function Workspace() {
             <li><Link to="/Knowledge">Knowledge</Link></li>
         </ul>
     </nav>
-    <h1>Workspace </h1>
     </>
         )
 }

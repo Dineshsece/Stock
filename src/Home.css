@@ -48,6 +48,7 @@ html{
     box-shadow: 0 0 10px white;
 }
 
+<<<<<<< HEAD
 .navbar1 {
     margin-top: 0px;
     display: flex;
@@ -83,3 +84,5 @@ html{
     text-decoration: underline; /* Add underline on hover */
 }
 
+=======
+>>>>>>> 129bf1f5862b4d8111d8cb34ddd5631c87f2e670
