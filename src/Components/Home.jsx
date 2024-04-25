@@ -37,9 +37,9 @@ function Home(){
     <h2>Disclaimer</h2>
     <p>We are  not a professional stock analyst or financial advisor. Any information provided is for educational and informational purposes only and should not be construed as financial advice. Investing in the stock market involves risks, including the potential loss of principal. All investment decisions and actions are taken at your own risk. It is recommended to consult with a qualified financial advisor or conduct thorough research before making any investment decisions.</p>
     </div>
-   
+   <div className="about">
     <h2>Inspiration</h2>
-<div className="sidediv">
+   <div className="sidediv">
     <Slider {...settings}>
 
    
@@ -63,11 +63,11 @@ function Home(){
      
     </Slider>
     </div>
-
+    </div>
 
    
 
-    <div class = "contact">
+    <div class = "about">
         <h2>Contact us</h2>
         <p>StockGeeks@gmail.com</p>
     </div>
