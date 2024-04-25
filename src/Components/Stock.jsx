@@ -32,11 +32,13 @@ function Stock(){
             <td>Reliance Industries Limited (RELIANCE)</td>
           </tr>
           <tr>
-            <td>Conglomerate</td>
-            <td>Reliance Industries Limited (RELIANCE)</td>
+            <td>Information Technology </td>
+            <td>Infosys Limited <br/>(INFY)
+               Tata Consultancy Services Limited <br />(TCS)
+               Wipro Limited <br />(WIPRO)</td>
           </tr>
           <tr>
-            <td>Conglomerate</td>
+            <td></td>
             <td>Reliance Industries Limited (RELIANCE)</td>
           </tr>
        
