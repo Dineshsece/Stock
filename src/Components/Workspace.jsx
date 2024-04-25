@@ -16,6 +16,12 @@ function Workspace() {
             <li><Link to="/Knowledge">Knowledge</Link></li>
         </ul>
     </nav>
+<<<<<<< HEAD
+    <div style={{marginLeft:"150px"}}>
+    <h1 >Workspace </h1>
+    </div>
+=======
+>>>>>>> 129bf1f5862b4d8111d8cb34ddd5631c87f2e670
     </>
         )
 }

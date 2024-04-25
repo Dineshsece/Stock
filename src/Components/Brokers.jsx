@@ -15,9 +15,11 @@ function Brokers(){
             <li><Link to="/Knowledge">Knowledge</Link></li>
             </ul>
         </nav>
-        <div className="brokers" style={{ height: "100vh", width: "92%",marginLeft:"140px" }}>
+        <div style={{ height: "100vh", width: "92%",marginLeft:"140px" }}>
+        <div className="brokers" >
             <h1>Brokers</h1>
-            <br/><p>Broker in the stock market is like a <b>middleman</b> who helps you <b>buy and sell stocks or other investments</b>. They have access to the places where stocks are traded, like the stock exchange, and they handle the transactions for you. Some brokers also give advice on what stocks to buy or sell, while others just execute the trades you tell them to. They may charge you a fee or a commission for their services. Basically, they make it easier for you to invest in the stock market.</p><br/>
+            <br/><p>Broker in the stock market is like a middleman who helps you buy and sell stocks or other investments. They have access to the places where stocks are traded, like the stock exchange, and they handle the transactions for you. Some brokers also give advice on what stocks to buy or sell, while others just execute the trades you tell them to. They may charge you a fee or a commission for their services. Basically, they make it easier for you to invest in the stock market.</p><br/></div>
+            <div className="brokers">
             <h2>How to select a Broker ?</h2>
             <p>Selecting the appropriate brokerage firm is a pivotal aspect of your investment journey. Here's an in-depth exploration of critical considerations:</p><br/>
             <h3>1. Understanding Your Investment Requirements:</h3>
@@ -65,6 +67,7 @@ function Brokers(){
         <p> 5. <a href="https://www.motilaloswal.com/">Motilal Oswal</a> : Motilal Oswal is a full-service broker known for its research capabilities and focus on customer education. They offer a wide range of investment products and services, including research reports, recommendations, and portfolio management. However, their brokerage fees are on the higher side, making them suitable for investors seeking in-depth research and guidance. </p><br/>
         <h2>Broker Difference:</h2>
         <h1>A box need to be inserted</h1>
+        </div>
         </div>
         </>
   )

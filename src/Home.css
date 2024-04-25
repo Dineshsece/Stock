@@ -4,15 +4,47 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #f9e5d3, #f9e5d3, #c9d6ff, #c9d6ff, #e2e2e2, #f9e5d3);
+    background-size: 300% 300%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.about{
+    background-color: #f9f9f9;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 html{
     scroll-behavior: smooth;
 }
+
 
 .navbar{
     display: flex;
     justify-content: right;
     align-items: right;
-    background-color: rgb(18, 29, 51);
+    z-index: 999;
+    background-color: rgb(18, 29, 51,100);
     position: sticky;
     top:0;
 }
@@ -50,39 +82,68 @@ html{
 
 <<<<<<< HEAD
 .navbar1 {
-    margin-top: 0px;
+   
     display: flex;
     flex-direction: column;
-    justify-content:space-between; /* Align items with space between them */
+    justify-content:space-between;
     text-align: center;
-    background-color:rgb(18, 29, 51); /* Set navbar background color */
-    height: 100vh; /* Fill the viewport height */
-    width: 130px; /* Set fixed width */
-    padding: 20px; /* Add padding to navbar */
+    background-color:rgb(18, 29, 51);
+    height: 100vh;
+    width: 130px;
+    padding: 20px; 
     position: fixed;
 }
 
 .navbar1 ul {
     list-style-type: none;
     padding: 0;
-    margin: 0; /* Remove default margin */
+    margin: 0;
 }
 
 .navbar1 li {
-    margin-bottom: auto; /* Distribute space evenly */
+    margin-bottom: auto; 
    padding-top:70px ;
     
 }
 
 .navbar1 li a {
-    color: #fff; /* Set link color */
+    color: #fff;
     text-decoration: none;
-    font-size: 18px; /* Set font size */
+    font-size: 18px; 
 }
 
 .navbar1 li a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline; 
 }
 
+<<<<<<< HEAD
+=======
+.img{
+   
+   margin: 0px 0.1px;
+   width: 300px;
+   height: 500px;
+   padding: 50px;
+
+   border: 1px solid #ccc;
+   
+
+   
+}
+.slick-side>div{
+    margin: 0 10px;
+    background-color : #000;
+}
+
+
+.sidediv{
+    margin: 40px;
+    position:static;
+    -webkit-box-shadow: 4px 3px 34px 32px rgba(0,0,0,0.51);
+    -moz-box-shadow: 4px 3px 34px 32px rgba(0,0,0,0.51);
+    box-shadow: 4px 3px 34px 32px rgba(0,0,0,0.51);
+
+}
+>>>>>>> 8be0897839760715e8dd72ee286bf722b4edd6d8
 =======
 >>>>>>> 129bf1f5862b4d8111d8cb34ddd5631c87f2e670
