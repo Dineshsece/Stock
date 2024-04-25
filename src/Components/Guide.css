@@ -1,0 +1,43 @@
+
+
+.Guide {
+    height: 100vh;
+    width: 92%;
+    margin-left: 140px;
+    padding: 20px;
+  }
+  
+  .Guide h1 {
+    font-size: 36px;
+    color: #4CAF50; /* Green color */
+  }
+  
+  .Guide h2 {
+    font-size: 28px;
+    color: #FF5722; /* Orange color */
+  }
+  
+  .Guide h3 {
+    font-size: 24px;
+    color: #2196F3; /* Blue color */
+  }
+  
+  .Guide p {
+    font-size: 18px;
+    color: #555; /* Dark gray color */
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .Guide {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
