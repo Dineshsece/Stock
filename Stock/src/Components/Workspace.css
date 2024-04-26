@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+  }
+
+.navbar1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(18, 29, 51); /* Set navbar background color */
+    height: 100vh; /* Fill the viewport height */
+    width: 130px; /* Set fixed width */
+    position: fixed;
+    left: 0; /* Align to the left side */
+    top:0;
+}
+
+.navbar1 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+.navbar1 li {
+    padding-top: 70px; /* Add top padding to each list item */
+}
+
+.navbar1 li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar1 li a:hover {
+    color: #ffc107; /* Yellow color on hover */
+    text-decoration: underline;
+}
+
+.video-container {
+    text-align: center;
+  }
+  
+  .videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 30px;
+  }
+  .video{
+    display: flex;
+    flex-direction:column;
+    background-color: #f9f9f9;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+    height: 300px;
+    
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
